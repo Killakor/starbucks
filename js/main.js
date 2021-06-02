@@ -17,7 +17,7 @@ searchInputEl.addEventListener("blur", function () {
 });
 
 const badgeEl = document.querySelector("header .badges");
-const toTopEl = documnet.querySelector("#to-top");
+const toTopEl = document.querySelector("#to-top");
 
 window.addEventListener(
   "scroll",
@@ -49,15 +49,11 @@ window.addEventListener(
 );
 // _.throttle(함수, 시간s)
 
-
-toTopEl.addEventListener("click", function{
+toTopEl.addEventListener("click", function () {
   gsap.to(window, 0.7, {
-    scrollTo : 0,
+    scrollTo: 0,
   });
 });
-
-
-
 
 const fadeEls = document.querySelectorAll(".visual .fade-in");
 fadeEls.forEach(function (fadeEl, index) {
