@@ -1,0 +1,74 @@
+https://github.com/ParkYoungWoong/starbucks-vanilla-app
+
+1강 정리
+파비콘은 링크제공으로 안하면 프로젝트 루트경로에서 .ico를 찾아서 넣음
+다른 파일로 제공하고 싶으면 link icon 으로 등록
+reset.css cdn
+https://www.jsdelivr.com/package/npm/reset-css
+
+2강 정리
+오픈 그래프(The Open Graph protocol)
+웹페이지가 소셜 미디어(카카오톡 등)로 공유될 때 우선적으로 활용되는 정보(제목, 이미지)를 지정
+트위터 카드(Twitter Cards)
+웹페이지가 소셜 미디어(트위터)로 공유될 때 우선적으로 활용되는 정보를 지정
+
+3강 정리
+구글 폰트 (google font)
+https://fonts.google.com/?query=nanum
+라이센스에 조심하자
+
+4강
+구글 메터리얼 아이콘 (google material icon)
+디자인 리소스
+https://fonts.google.com/icons
+https://material.io/design/iconography/system-icons.html
+https://material.io/develop/web/getting-started
+폰트는 기본 24px
+
+5강
+헤더 - 로고 / 서브메뉴 / 메인메뉴
+a tag 부분 /는 절대경로이다 (도메인/index.html) 인데 값을 생략할 수 있다(메인페이지로만 이동)
+
+6강
+a href # 또는 javascript:void(0)
+css는 정확한 범위를 지정해줘야한다
+
+10강
+HTML 클래스 속성의 작명법
+BEM (Block Element Modifier)
+요소__일부분 : Underscore(Lodash)기호로 일부분을 표시
+요소--상태 : Hyphen(Dash) 기호로 요소의 상태를 표시
+
+11강
+position이 fixed, absolute 경우는 가로폭이 최소한으로 줄어들려 한다
+(기본 블럭요소는 가로로 넓게 가려한다, relative)
+lodash cdn (스크롤)
+https://cdnjs.com/libraries/lodash.js
+gsap cdn (애니메이션)
+https://cdnjs.com/libraries/gsap
+
+17강
+swiperjs (스와이퍼)
+https://swiperjs.com/
+
+24강
+youtube iframe api
+https://developers.google.com/youtube/iframe_api_reference?hl=ko
+
+25강
+gsap easing
+https://greensock.com/docs/v2/Easing
+
+28강
+scrollmagic cdn
+https://cdnjs.com/libraries/ScrollMagic
+
+31강
+html entities
+https://dev.w3.org/html5/html-author/charref
+img요소가 display:block+margin: 0 auto; 인경우,
+width 속성이 없이도 가운데 정렬이 가능합니다.
+
+32강
+gsap cdn (스크롤)
+https://cdnjs.com/libraries/gsap
